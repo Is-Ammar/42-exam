@@ -40,6 +40,6 @@ Your function must be prototyped as follows:
 			{
 				if (n % a == 0 && n % b == 0)
 						return (n);
-				++n; 
+				++n;
 			}
 	}

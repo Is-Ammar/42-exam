@@ -33,7 +33,9 @@ void ft_putnb(int nb)
     {
         ft_putnb(nb / 10);
         ft_putchar(nb % 10 + '0');
-    }else{
+    }
+    else
+    {
         ft_putchar(nb % 10 + '0');
     }
 } 
